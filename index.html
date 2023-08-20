@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="formIMC">
+        <h1 class="main__h1">¡Conocé tu índice de masa corporal!</h1>
+    <div class="main__contenedor--contacto">
+        <form id="calcularIMC">
+            <label>Ingrese su altura en metros</label><br>
+            <input type="number" step="0.01" name="altura" required id="altura"><br>
+            <label>Ingrese su peso en kilogramos</label><br>
+            <input type="number" step="0.1" name="peso" required id="peso"><br>
+            <input type="submit" name="enviar" value="CALCULAR" id="enviar">
+        </form>
+        <br>
+        <label>Tu IMC es: <span id="resultadoIMC"></span></label>
+    </div>
+    <div class="mostrarResultado">
+        <p id="resultado"></p>
+    </div>
+    <div id="registros">
+        <h2>Registros</h2>
+        <ul id="listaRegistros"></ul>
+    </div>
+    </main>
+
+
+    <script src="./JS/app.js" async></script>
+</body>
+</html>
