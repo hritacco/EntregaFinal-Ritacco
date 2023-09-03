@@ -1,9 +1,18 @@
-const registros = [];
+/* const registros = []; */
+
+// Cargar registros desde el localStorage al cargar la página
+if (localStorage.getItem("registros")) {
+    registros = JSON.parse(localStorage.getItem("registros"));
+    actualizarListaRegistros();
+}
 
 function actualizarListaRegistros() {
     const listaRegistros = document.getElementById("listaRegistros");
     listaRegistros.innerHTML = "";
-    
+
+    // Guardar los registros en el localStorage
+    localStorage.setItem("registros", JSON.stringify(registros));
+
     registros.forEach((registro, index) => {
         const li = document.createElement("li");
         li.textContent = `Registro ${index + 1}: Fecha: ${registro.fecha}, Hora: ${registro.hora}, IMC: ${registro.imc}, DX: ${registro.leyenda}`;
