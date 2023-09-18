@@ -1,0 +1,8 @@
+{
+    "imcData": [
+        { "imcMin": 0, "imcMax": 18.4, "leyenda": "Bajo peso" },
+        { "imcMin": 18.5, "imcMax": 24.9, "leyenda": "Peso normal" },
+        { "imcMin": 25, "imcMax": 29.9, "leyenda": "Sobrepeso" },
+        { "imcMin": 30, "imcMax": 1000, "leyenda": "Obesidad" }
+    ]
+}

@@ -1,0 +1,53 @@
+El proyecto tiene que contar con:
+
+Objetos y Arrays. Métodos de Arrays.
+
+Funciones y condicionales.
+
+Generación del DOM de forma dinámica. Eventos.
+
+Sintaxis avanzada.
+
+Al menos una librería de uso relevante para el proyecto.
+
+Manejo de promesas con fetch.
+
+Carga de datos desde un JSON local o desde una API externa.
+
+Requisitos base
+
+Los requisitos base serán parte de los criterios de evaluación para aprobar el proyecto.
+
+Funcionalidad: simulación de procesos de forma eficaz
+
+Interactividad: operación del simulador, ingreso y salida de datos de forma apropiada y coherente
+
+Escalabilidad: Construcción del código fuente teniendo presentes criterios de reutilización, incorporación de estructuras de datos y funciones de forma dinámica.
+
+Integridad: Integración del código JavaScript con la estructura de la propia aplicación, empleabilidad de información y/o recursos externos
+
+Legibilidad: Escritura y prolijidad del código JS
+
+lo que si o si tiene que estar es :
+
+1-fetch, con async/await y try catch (si no esta completo uno de esos se le baja 1 punto, si no tiene nada 2 puntos y explicar el porque)
+
+2-si no llaman a una api, tiene que haber un archivo JSON en una carpeta aparte con sus productos y hacer fetch ahi (si tiene el archivo json sin la carpeta se le baja 1 punto)
+
+3-1 libreria tiene que haber
+
+4-metodos de array y de objectos por lo menos 1 de cada uno
+
+5-buscar romper el codigo ya sea con entradas numericas o string, tiene que haber validaciones en los campos para aquellos que haya formulario
+
+6-SI HAY alguna variable con VAR se le baja 1 punto
+
+7-ver de nuestro lado si se puede aplicar la desestructuracion algun objecto, si se puede y no la tiene se le baja 1 punto y se le explica el porque
+
+8-Tiene que haber generacion del DOM atravez de JS
+
+9-Tiene que haber eventos
+
+10- ver si se puede hacer foco en el if ternario, si hay muchos if else if else if ahi no aplica el if ternario, pero si hay un if else hay que aplicar el if ternario
+
+11- uso del localStorage SI O SI, no del session, pero si del local (tiene que haber getItem,setItem y remove) si no hay 1 de los 3 se le baja 1 puntos, si no estan los 3 se le baja 2 puntos
